@@ -1,7 +1,7 @@
 # Amburrrr
 You're so AMAZINGGGGG!
 
-Made this for my GF for her birthday :D
+Made this for my GF's birthday :D
 
 URL: https://neilpreyes.github.io/Amber/
 
