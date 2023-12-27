@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
-</head>
-<body>
-
-    <header>
-        <h1>Hello, World!</h1>
-    </header>
-
-    <main>
-        <p>This is a simple HTML page.</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Neil</p>
-    </footer>
-
-</body>
+    <head>
+        <link rel="stylesheet" href="./style/css/main.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Happy Birthday Amber!</h1>
+            </div>
+            <div class="gif_container">
+                <img src="./style/images/sora_birthday.gif" alt="Sora">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "nextButton" onclick="nextPage()">Click Here</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "ask_out.html";
+                    }
+                    
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
 </html>
